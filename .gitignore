@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment / secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+!client/.env.example
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+*.local
